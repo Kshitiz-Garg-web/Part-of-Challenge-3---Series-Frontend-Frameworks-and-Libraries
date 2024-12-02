@@ -1,0 +1,108 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body,
+html {
+  position: relative;
+}
+
+/* ......backfround */
+.background {
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: blur(10px); */
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%,-50%);
+  max-width: 600px;
+  width: 100%;
+  filter: blur(0px);
+  opacity: 0.3;
+}
+
+.bgimg {
+  /* background-color: red; */
+  width: 100%;
+  /* margin-top: -90px; */
+  height: 80vh;
+  /* transform: scaleY(1.7); */
+}
+
+/* ........header */
+header {
+  /* background-color: #c11111; */
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+/* ............hero */
+.hero_container {
+  background-color: hsla(258, 98%, 48%, 0.02);
+  /* background-color: rgba(0, 128, 0, 0.508); */
+  border-radius: 25px;
+  /* height: calc(100vh - var(--header_height)); */
+  transform: scale(0.9);
+  
+}
+.pp {
+  opacity: 0.8;
+}
+
+.heading {
+  color: #0000ff;
+}
+
+.para {
+  color: blue;
+}
+
+.maxlimit {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.btn_box {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-inline: auto;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* ............button */
+.primary_btn {
+  padding: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(0, 0, 0);
+  width: 50%;
+  min-width: 300px;
+  border-radius: 8px;
+  /* text-align: center; */
+  font-size: 24px;
+  /* opacity: .2; */
+  height: 60px;
+  border: 2px solid #000000;
+}
+
+.dft_btn {
+  padding: auto;
+  background-color: rgba(21, 0, 251, 0.2);
+  color: white;
+  border: 2px solid #0000ff;
+  width: 80%;
+  min-width: 300px;
+  border-radius: 8px;
+  /* text-align: center; */
+  font-size: 24px;
+  /* opacity: .2; */
+  height: 60px;
+  margin-bottom: 10px;
+}
